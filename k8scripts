@@ -1,6 +1,6 @@
 export ns=default
-alias k='kubectl -n $ns' # This helps when namespace in question doesn't have a friendly name 
-alias kdr= 'kubectl -n $ns -o yaml --dry-run=client'
+echo 'alias k="kubectl -n $ns"' >> .profile 
+echo 'alias kdr="kubectl -n $ns -o yaml --dry-run=client"' >> .profile
 echo 'alias kc=kubectl' >> .profile  
 echo 'alias kcr="kubectl create"' >> .profile  
 echo 'alias kcdes="kubectl describe"' >> .profile   
