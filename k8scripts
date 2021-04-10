@@ -7,4 +7,6 @@ echo 'alias kced="kubectl edit"' >> .profile
 echo 'alias kcfg="kubectl config"' >> .profile  && echo 'alias kcrmap="kubectl create configmap"' >> .profile && source .profile 
 echo 'alias ksetns="kubectl config set-context --current"' >> .profile 
 echo 'alias kcrf="kubectl create -f"' >> .profile && source .profile 
+source .profile
 clear
+echo ok
