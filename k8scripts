@@ -15,6 +15,7 @@ echo 'alias kcgy="kubectl get -o yaml"' >> .profile
 echo 'alias krls="kubectl rollout status"' >> .profile
 echo 'alias krlh="kubectl rollout history"' >> .profile
 echo 'alias krlu="kubectl rollout undo"' >> .profile
+echo 'alias kcaf="kubectl apply -f"' >> .profile
 source .profile
 clear
 echo ok
