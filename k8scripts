@@ -12,6 +12,8 @@ echo 'alias kcrmap="kubectl create configmap"' >> .profile
 echo 'alias ksetns="kubectl config set-context --current"' >> .profile 
 echo 'alias kcrf="kubectl create -f"' >> .profile
 echo 'alias kcgy="kubectl get -o yaml"' >> .profile
+echo 'alias krls="kubectl rollout status"' >> .profile
+echo 'alias krlh="kubectl rollout history"' >> .profile
 source .profile
 clear
 echo ok
