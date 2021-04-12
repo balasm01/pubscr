@@ -17,6 +17,7 @@ echo 'alias krlh="kubectl rollout history"' >> .profile
 echo 'alias krlu="kubectl rollout undo"' >> .profile
 echo 'alias kcaf="kubectl apply -f"' >> .profile
 echo 'alias kgns="kubectl config view | grep namespace"' >> .profile
+echo 'alias kxit="kubectl exec -it"' >> .profile
 source .profile
 clear
 echo ok
