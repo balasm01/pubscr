@@ -1,6 +1,5 @@
 export ns=default
 echo 'alias k="kubectl -n $ns"' >> .profile 
-echo 'alias kdr="kubectl -n $ns -o yaml --dry-run=client"' >> .profile
 echo 'alias kc=kubectl' >> .profile  
 echo 'alias kcr="kubectl create"' >> .profile  
 echo 'alias kcdes="kubectl describe"' >> .profile   
@@ -18,6 +17,7 @@ echo 'alias krlu="kubectl rollout undo"' >> .profile
 echo 'alias kcaf="kubectl apply -f"' >> .profile
 echo 'alias kgns="kubectl config view | grep namespace"' >> .profile
 echo 'alias kxit="kubectl exec -it"' >> .profile
+echo 'alias kdrn="kubectl -o yaml --dry-run=client run"' >> .profile
 source .profile
 clear
 echo ok
