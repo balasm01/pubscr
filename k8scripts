@@ -17,7 +17,6 @@ echo 'alias krlu="kubectl rollout undo"' >> .profile
 echo 'alias kcaf="kubectl apply -f"' >> .profile
 echo 'alias kgns="kubectl config view | grep namespace"' >> .profile
 echo 'alias kxit="kubectl exec -it"' >> .profile
-echo 'alias kdrn="kubectl -o yaml --dry-run=client run"' >> .profile
-source .profile
+echo 'alias kdrn="kubectl -o yaml --dry-run=client"' >> .profile
 clear
 echo ok
