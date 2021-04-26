@@ -1,22 +1,19 @@
-export ns=default
-echo 'alias k="kubectl -n $ns"' >> .profile 
-echo 'alias kc=kubectl' >> .profile  
-echo 'alias kcr="kubectl create"' >> .profile  
-echo 'alias kcdes="kubectl describe"' >> .profile   
-echo 'alias kcdel="kubectl delete"' >> .profile   
-echo 'alias kcg="kubectl get"' >> .profile   
-echo 'alias kced="kubectl edit"' >> .profile 
-echo 'alias kcfg="kubectl config"' >> .profile 
-echo 'alias kcrmap="kubectl create configmap"' >> .profile
-echo 'alias ksetns="kubectl config set-context --current"' >> .profile 
-echo 'alias kcrf="kubectl create -f"' >> .profile
-echo 'alias kcgy="kubectl get -o yaml"' >> .profile
-echo 'alias krls="kubectl rollout status"' >> .profile
-echo 'alias krlh="kubectl rollout history"' >> .profile
-echo 'alias krlu="kubectl rollout undo"' >> .profile
-echo 'alias kcaf="kubectl apply -f"' >> .profile
-echo 'alias kgns="kubectl config view | grep namespace"' >> .profile
-echo 'alias kxit="kubectl exec -it"' >> .profile
-echo 'alias kdrn="kubectl -o yaml --dry-run=client"' >> .profile
-clear
-echo ok
+echo 'alias k="kubectl -n $ns"' 
+echo 'alias kc=kubectl'  
+echo 'alias kcr="kubectl create"'  
+echo 'alias kcdes="kubectl describe"'   
+echo 'alias kcdel="kubectl delete"'   
+echo 'alias kcg="kubectl get"'   
+echo 'alias kced="kubectl edit"' 
+echo 'alias kcfg="kubectl config"' 
+echo 'alias kcrmap="kubectl create configmap"'
+echo 'alias ksetns="kubectl config set-context --current --namespace"' 
+echo 'alias kcrf="kubectl create -f"'
+echo 'alias kcgy="kubectl get -o yaml"'
+echo 'alias krls="kubectl rollout status"'
+echo 'alias krlh="kubectl rollout history"'
+echo 'alias krlu="kubectl rollout undo"'
+echo 'alias kcaf="kubectl apply -f"'
+echo 'alias kgns="kubectl config view | grep namespace"'
+echo 'alias kxit="kubectl exec -it"'
+echo 'alias kdrn="kubectl -o yaml --dry-run=client"'
