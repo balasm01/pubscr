@@ -17,3 +17,6 @@ alias kcaf="kubectl apply -f"
 alias kgns="kubectl config view | grep namespace"
 alias kxit="kubectl exec -it"
 alias kdrn="kubectl -o yaml --dry-run=client"
+alias deptpl="kdrn create deploy mbb --image=busybox --replicas=3 -- sleep 3600"
+alias crpo="kdrn create po mbb --image=busybox -- sleep 3600"
+
